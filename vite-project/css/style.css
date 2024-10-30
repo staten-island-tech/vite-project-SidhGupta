@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -93,4 +93,41 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+*{
+
+}
+
+:root {
+  --primary: #dc2626;
+  --light-blue: #2998ff;
+  
+
+  --h1: 15rem;
+  --h2: 5rem;
+  --h3: 4rem;
+  --h2: 3rem;
+}
+
+.warm {
+  --primary: var(--light-red);
+}
+
+.cool {
+  --primary: var(--light-blue);
+}
+
+h1{
+  font-size: var(--h1);
+}
+
+h2{
+  font-size: var(--h2);
+}
+h3{
+  font-size: var(--h3);
+}
+h4 {
+  font-size: var(--h4);
 }
