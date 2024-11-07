@@ -1,3 +1,4 @@
+
 const pokemonInfo = [
     {
         title: "Pikachu",
@@ -6,7 +7,7 @@ const pokemonInfo = [
         weight: 6.0,
         height: 0.4,
         form: "Standard",
-        imageUrl: "",
+        imageUrl: "public/pika.png",
         altText: ""
     },
     {
