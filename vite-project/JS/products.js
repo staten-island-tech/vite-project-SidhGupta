@@ -17,7 +17,7 @@ const pokemonInfo = [
         weight: 40.5,
         height: 1.5,
         form: "Standard",
-        imageUrl: "",
+        imageUrl: "public/gengar.png",
         altText: ""
     },
     {
@@ -27,7 +27,7 @@ const pokemonInfo = [
         weight: 40.5,
         height: 1.5,
         form: "Mega",
-        imageUrl: "",
+        imageUrl: "public/mega gengar.png",
         altText: ""
     },
     {
@@ -37,7 +37,7 @@ const pokemonInfo = [
         weight: 90.5,
         height: 1.7,
         form: "Standard",
-        imageUrl: "",
+        imageUrl: "public/chari.png",
         altText: ""
     },
     {
@@ -47,7 +47,7 @@ const pokemonInfo = [
         weight: 90.5,
         height: 1.7,
         form: "Mega X",
-        imageUrl: "",
+        imageUrl: "public/meg y char.webp",
         altText: ""
     },
     {
@@ -57,7 +57,7 @@ const pokemonInfo = [
         weight: 90.5,
         height: 1.7,
         form: "Mega Y",
-        imageUrl: "",
+        imageUrl: "public/meg char y.png",
         altText: ""
     },
     {
@@ -67,7 +67,7 @@ const pokemonInfo = [
         weight: 122.0,
         height: 2.0,
         form: "Standard",
-        imageUrl: "",
+        imageUrl: "public/mew two.jpg",
         altText: ""
     },
     {
@@ -77,7 +77,7 @@ const pokemonInfo = [
         weight: 130.0,
         height: 2.0,
         form: "Mega X",
-        imageUrl: "",
+        imageUrl: "public/mewtwo mega y.png",
         altText: ""
     },
     {
@@ -87,7 +87,7 @@ const pokemonInfo = [
         weight: 90.5,
         height: 2.0,
         form: "Mega Y",
-        imageUrl: "",
+        imageUrl: "public/mega mewtwo y.jpg",
         altText: ""
     },
     {
@@ -97,7 +97,7 @@ const pokemonInfo = [
         weight: 31.5,
         height: 1.2,
         form: "50% Forme",
-        imageUrl: "",
+        imageUrl: "public/zygarde 50.png",
         altText: ""
     },
     {
@@ -107,7 +107,7 @@ const pokemonInfo = [
         weight: 610.0,
         height: 4.0,
         form: "Complete Forme",
-        imageUrl: "",
+        imageUrl: "public/zygarde 100.png",
         altText: ""
     },
     {
@@ -117,7 +117,7 @@ const pokemonInfo = [
         weight: 3.0,
         height: 0.3,
         form: "Standard",
-        imageUrl: "",
+        imageUrl: "public/rotom standard.png",
         altText: ""
     },
     {
@@ -127,7 +127,7 @@ const pokemonInfo = [
         weight: 3.0,
         height: 0.3,
         form: "Wash",
-        imageUrl: "",
+        imageUrl: "public/rotom wash.png",
         altText: ""
     },
     {
@@ -137,7 +137,7 @@ const pokemonInfo = [
         weight: 3.0,
         height: 0.3,
         form: "Frost",
-        imageUrl: "",
+        imageUrl: "public/rotom frost.png",
         altText: ""
     },
     {
@@ -147,7 +147,7 @@ const pokemonInfo = [
         weight: 3.0,
         height: 0.3,
         form: "Fan",
-        imageUrl: "",
+        imageUrl: "public/rotom fan.png",
         altText: ""
     },
     {
@@ -157,7 +157,7 @@ const pokemonInfo = [
         weight: 3.0,
         height: 0.3,
         form: "Mow",
-        imageUrl: "",
+        imageUrl: "public/rotom mow.png",
         altText: ""
     },
     {
@@ -166,8 +166,8 @@ const pokemonInfo = [
         type: "Fighting, Steel",
         weight: 54.0,
         height: 1.2,
-        form: "Standard",
-        imageUrl: "",
+        form: "mega",
+        imageUrl: "public/lucario meg.png",
         altText: ""
     },
     {
@@ -177,7 +177,7 @@ const pokemonInfo = [
         weight: 60.8,
         height: 1.7,
         form: "Normal",
-        imageUrl: "",
+        imageUrl: "public/deox norm.png",
         altText: ""
     },
     {
@@ -187,7 +187,7 @@ const pokemonInfo = [
         weight: 60.8,
         height: 1.7,
         form: "Attack",
-        imageUrl: "",
+        imageUrl: "public/deox attack.png",
         altText: ""
     },
     {
@@ -197,7 +197,7 @@ const pokemonInfo = [
         weight: 60.8,
         height: 1.7,
         form: "Defense",
-        imageUrl: "",
+        imageUrl: "public/deox def.png",
         altText: ""
     },
     {
@@ -207,7 +207,7 @@ const pokemonInfo = [
         weight: 60.8,
         height: 1.7,
         form: "Speed",
-        imageUrl: "",
+        imageUrl: "public/deox speed.png",
         altText: ""
     }
 ];
