@@ -1,8 +1,7 @@
-
 const pokemonInfo = [
     {
         title: "Pikachu",
-        pokedexNumber: 25,
+        evolutionStage: "Stage 1",  // Pikachu's base form (Stage 1 in this context)
         type: "Electric",
         weight: 6.0,
         height: 0.4,
@@ -12,7 +11,7 @@ const pokemonInfo = [
     },
     {
         title: "Gengar",
-        pokedexNumber: 94,
+        evolutionStage: "Stage 2",  // Gengar is the evolved form of Gastly
         type: "Ghost, Poison",
         weight: 40.5,
         height: 1.5,
@@ -22,7 +21,7 @@ const pokemonInfo = [
     },
     {
         title: "Gengar",
-        pokedexNumber: 94,
+        evolutionStage: "Mega Evolution",  // Mega Gengar, a further form of Gengar
         type: "Ghost, Poison",
         weight: 40.5,
         height: 1.5,
@@ -32,7 +31,7 @@ const pokemonInfo = [
     },
     {
         title: "Charizard",
-        pokedexNumber: 6,
+        evolutionStage: "Stage 2",  // Charizard is the evolved form of Charmander
         type: "Fire, Flying",
         weight: 90.5,
         height: 1.7,
@@ -42,7 +41,7 @@ const pokemonInfo = [
     },
     {
         title: "Charizard",
-        pokedexNumber: 6,
+        evolutionStage: "Mega Evolution",  // Mega Evolution forms of Charizard
         type: "Fire, Flying",
         weight: 90.5,
         height: 1.7,
@@ -52,7 +51,7 @@ const pokemonInfo = [
     },
     {
         title: "Charizard",
-        pokedexNumber: 6,
+        evolutionStage: "Mega Evolution",  // Mega Evolution forms of Charizard
         type: "Fire, Flying",
         weight: 90.5,
         height: 1.7,
@@ -62,7 +61,7 @@ const pokemonInfo = [
     },
     {
         title: "Mewtwo",
-        pokedexNumber: 150,
+        evolutionStage: "Basic",  // Mewtwo is a powerful Pokémon (Stage 3), though not an evolution
         type: "Psychic",
         weight: 122.0,
         height: 2.0,
@@ -72,7 +71,7 @@ const pokemonInfo = [
     },
     {
         title: "Mewtwo",
-        pokedexNumber: 150,
+        evolutionStage: "Mega Evolution",  // Mega Evolution forms of Mewtwo
         type: "Psychic",
         weight: 130.0,
         height: 2.0,
@@ -82,7 +81,7 @@ const pokemonInfo = [
     },
     {
         title: "Mewtwo",
-        pokedexNumber: 150,
+        evolutionStage: "Mega Evolution",  // Mega Evolution forms of Mewtwo
         type: "Psychic",
         weight: 90.5,
         height: 2.0,
@@ -92,7 +91,7 @@ const pokemonInfo = [
     },
     {
         title: "Zygarde",
-        pokedexNumber: 718,
+        evolutionStage: "Other",  // Zygarde has multiple forms (Stage 2 and Complete Forme), so labeled as "Other"
         type: "Dragon, Ground",
         weight: 31.5,
         height: 1.2,
@@ -102,7 +101,7 @@ const pokemonInfo = [
     },
     {
         title: "Zygarde",
-        pokedexNumber: 718,
+        evolutionStage: "Other",  // Zygarde's Complete Forme (Stage 3)
         type: "Dragon, Ground",
         weight: 610.0,
         height: 4.0,
@@ -112,7 +111,7 @@ const pokemonInfo = [
     },
     {
         title: "Rotom",
-        pokedexNumber: 479,
+        evolutionStage: "Basic",  // Rotom's base form (Stage 1)
         type: "Electric, Ghost",
         weight: 3.0,
         height: 0.3,
@@ -122,7 +121,7 @@ const pokemonInfo = [
     },
     {
         title: "Rotom",
-        pokedexNumber: 479,
+        evolutionStage: "Basic",  // Rotom Wash form, still Stage 1
         type: "Electric, Ghost",
         weight: 3.0,
         height: 0.3,
@@ -132,7 +131,7 @@ const pokemonInfo = [
     },
     {
         title: "Rotom",
-        pokedexNumber: 479,
+        evolutionStage: "Basic",  // Rotom Frost form, still Stage 1
         type: "Electric, Ghost",
         weight: 3.0,
         height: 0.3,
@@ -142,7 +141,7 @@ const pokemonInfo = [
     },
     {
         title: "Rotom",
-        pokedexNumber: 479,
+        evolutionStage: "Basic",  // Rotom Fan form, still Stage 1
         type: "Electric, Ghost",
         weight: 3.0,
         height: 0.3,
@@ -152,7 +151,7 @@ const pokemonInfo = [
     },
     {
         title: "Rotom",
-        pokedexNumber: 479,
+        evolutionStage: "Basic",  // Rotom Mow form, still Stage 1
         type: "Electric, Ghost",
         weight: 3.0,
         height: 0.3,
@@ -162,17 +161,17 @@ const pokemonInfo = [
     },
     {
         title: "Lucario",
-        pokedexNumber: 448,
+        evolutionStage: "Stage 2",  // Lucario is the evolved form of Riolu
         type: "Fighting, Steel",
         weight: 54.0,
         height: 1.2,
-        form: "mega",
+        form: "Mega",
         imageUrl: "public/lucario meg.png",
         altText: ""
     },
     {
         title: "Deoxys",
-        pokedexNumber: 386,
+        evolutionStage: "Basic",  // Deoxys is a single Pokémon but has multiple forms (Stage 1)
         type: "Psychic",
         weight: 60.8,
         height: 1.7,
@@ -182,7 +181,7 @@ const pokemonInfo = [
     },
     {
         title: "Deoxys",
-        pokedexNumber: 386,
+        evolutionStage: "Basic",  // Deoxys' Attack form, still Stage 1
         type: "Psychic",
         weight: 60.8,
         height: 1.7,
@@ -192,7 +191,7 @@ const pokemonInfo = [
     },
     {
         title: "Deoxys",
-        pokedexNumber: 386,
+        evolutionStage: "Basic",  // Deoxys' Defense form, still Stage 1
         type: "Psychic",
         weight: 60.8,
         height: 1.7,
@@ -202,7 +201,7 @@ const pokemonInfo = [
     },
     {
         title: "Deoxys",
-        pokedexNumber: 386,
+        evolutionStage: "Basic",  // Deoxys' Speed form, still Stage 1
         type: "Psychic",
         weight: 60.8,
         height: 1.7,
