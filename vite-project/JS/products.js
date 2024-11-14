@@ -211,4 +211,6 @@ const pokemonInfo = [
     }
 ];
 
+function filter
+
 export { pokemonInfo };
