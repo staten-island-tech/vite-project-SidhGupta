@@ -1,7 +1,7 @@
 const pokemonInfo = [
     {
         title: "Pikachu",
-        evolutionStage: "Stage 1",  // Pikachu's base form (Stage 1 in this context)
+        evolutionStage: "Stage1",  // Pikachu's base form (Stage 1 in this context)
         type: "Electric",
         weight: 6.0,
         height: 0.4,
@@ -11,7 +11,7 @@ const pokemonInfo = [
     },
     {
         title: "Gengar",
-        evolutionStage: "Stage 2",  // Gengar is the evolved form of Gastly
+        evolutionStage: "Stage2",  // Gengar is the evolved form of Gastly
         type: "Ghost, Poison",
         weight: 40.5,
         height: 1.5,
@@ -21,7 +21,7 @@ const pokemonInfo = [
     },
     {
         title: "Gengar",
-        evolutionStage: "Mega Evolution",  // Mega Gengar, a further form of Gengar
+        evolutionStage: "MegaEvolution",  // Mega Gengar, a further form of Gengar
         type: "Ghost, Poison",
         weight: 40.5,
         height: 1.5,
@@ -31,7 +31,7 @@ const pokemonInfo = [
     },
     {
         title: "Charizard",
-        evolutionStage: "Stage 2",  // Charizard is the evolved form of Charmander
+        evolutionStage: "Stage2",  // Charizard is the evolved form of Charmander
         type: "Fire, Flying",
         weight: 90.5,
         height: 1.7,
@@ -41,7 +41,7 @@ const pokemonInfo = [
     },
     {
         title: "Charizard",
-        evolutionStage: "Mega Evolution",  // Mega Evolution forms of Charizard
+        evolutionStage: "MegaEvolution",  // Mega Evolution forms of Charizard
         type: "Fire, Flying",
         weight: 90.5,
         height: 1.7,
@@ -51,7 +51,7 @@ const pokemonInfo = [
     },
     {
         title: "Charizard",
-        evolutionStage: "Mega Evolution",  // Mega Evolution forms of Charizard
+        evolutionStage: "MegaEvolution",  // Mega Evolution forms of Charizard
         type: "Fire, Flying",
         weight: 90.5,
         height: 1.7,
@@ -71,7 +71,7 @@ const pokemonInfo = [
     },
     {
         title: "Mewtwo",
-        evolutionStage: "Mega Evolution",  // Mega Evolution forms of Mewtwo
+        evolutionStage: "MegaEvolution",  // Mega Evolution forms of Mewtwo
         type: "Psychic",
         weight: 130.0,
         height: 2.0,
@@ -81,7 +81,7 @@ const pokemonInfo = [
     },
     {
         title: "Mewtwo",
-        evolutionStage: "Mega Evolution",  // Mega Evolution forms of Mewtwo
+        evolutionStage: "MegaEvolution",  // Mega Evolution forms of Mewtwo
         type: "Psychic",
         weight: 90.5,
         height: 2.0,
@@ -161,7 +161,7 @@ const pokemonInfo = [
     },
     {
         title: "Lucario",
-        evolutionStage: "Stage 2",  // Lucario is the evolved form of Riolu
+        evolutionStage: "Stage2",  // Lucario is the evolved form of Riolu
         type: "Fighting, Steel",
         weight: 54.0,
         height: 1.2,
@@ -211,6 +211,5 @@ const pokemonInfo = [
     }
 ];
 
-function filter
 
-export { pokemonInfo };
+export {pokemonInfo};
