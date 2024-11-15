@@ -1,7 +1,7 @@
 const pokemonInfo = [
     {
         title: "Pikachu",
-        evolutionStage: "Stage1",  // Pikachu's base form (Stage 1 in this context)
+        evolutionStage: "Stageone",  // Pikachu's base form (Stage 1 in this context)
         type: "Electric",
         weight: 6.0,
         height: 0.4,
@@ -11,7 +11,7 @@ const pokemonInfo = [
     },
     {
         title: "Gengar",
-        evolutionStage: "Stage2",  // Gengar is the evolved form of Gastly
+        evolutionStage: "Stagetwo",  // Gengar is the evolved form of Gastly
         type: "Ghost, Poison",
         weight: 40.5,
         height: 1.5,
@@ -31,7 +31,7 @@ const pokemonInfo = [
     },
     {
         title: "Charizard",
-        evolutionStage: "Stage2",  // Charizard is the evolved form of Charmander
+        evolutionStage: "Stagetwo",  // Charizard is the evolved form of Charmander
         type: "Fire, Flying",
         weight: 90.5,
         height: 1.7,
@@ -161,7 +161,7 @@ const pokemonInfo = [
     },
     {
         title: "Lucario",
-        evolutionStage: "Stage2",  // Lucario is the evolved form of Riolu
+        evolutionStage: "Stagetwo",  // Lucario is the evolved form of Riolu
         type: "Fighting, Steel",
         weight: 54.0,
         height: 1.2,
