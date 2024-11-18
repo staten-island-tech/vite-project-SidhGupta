@@ -98,7 +98,7 @@ function showStagetwo() {
             `<div class="itemCards">
                 <h3 class="card-header">${pokemon.title}</h3>
                 <img src="${pokemon.imageUrl}" alt="${pokemon.title}" id="cardImage">
-                <h4>${pokemon.type}</h4>
+                <h3>${pokemon.type}</h3>
             </div>`
         );
     });
@@ -106,11 +106,20 @@ function showStagetwo() {
 
 DOMSelectors.StagetwoBtn.addEventListener("click", function() {
     showStagetwo();
-
-
-    
-    
-    
 })
 
+
+document.querySelector(".ChangeThemebtn").addEventListener("click", function() {
+    if (document.body.classList.contatins("cool")){
+        document.body.classList.add("warm");
+        document.body.classList.remove("cool");
+    } else {
+        document.body.classList.add("cool");
+        document.body.classList.remove("warm");
+    }
+
+});
+/* DOMSelectors.ChangeThemeBtn.addEventListener("click", function() {
+    showChangetheme();
+ */
 showAll();

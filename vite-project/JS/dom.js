@@ -4,7 +4,8 @@ const DOMSelectors = {
     StageoneBtn: document.getElementById("StageoneBtn"),
     MegaBtn: document.getElementById("MegaBtn"),
     StagetwoBtn: document.getElementById("StagetwoBtn"),
-    AllBtn: document.getElementById("AllBtn")
+    AllBtn: document.getElementById("AllBtn"),
+    ChangeThemeBtn: document.getElementById("ChangeThemeBtn")
 }
 
 export {DOMSelectors};
